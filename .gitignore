@@ -1,0 +1,39 @@
+﻿# Secrets
+.env
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+logs/
+*.log
+
+# MLflow tracking — local-only, regenerated on each run
+mlruns/
+mlflow.db
+
+# Notebooks
+.ipynb_checkpoints/
+
+# IMPORTANT: artifacts/ is intentionally NOT ignored. We commit the trained
+# model so Render can boot without needing access to MongoDB to retrain.
+
+# Sandbox / accidental copies
+mnt/
+
+# Render
+.render/

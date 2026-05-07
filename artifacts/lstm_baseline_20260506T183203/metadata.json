@@ -1,0 +1,34 @@
+{
+  "name": "lstm_baseline",
+  "saved_at": "2026-05-06T18:32:03.920383+00:00",
+  "feature_cols": [
+    "ret_1d",
+    "ret_5d",
+    "ret_20d",
+    "close_to_sma20",
+    "close_to_sma50",
+    "rsi_14",
+    "macd_hist",
+    "vol_20d",
+    "vol_zscore_20",
+    "rel_ret_spy_1d"
+  ],
+  "seq_len": 60,
+  "metrics": {
+    "best_val_auc": 0.5185132993029883,
+    "best_epoch": 3,
+    "test_auc": 0.4944566673320546,
+    "test_accuracy": 0.5076530612244898
+  },
+  "hyperparams": {
+    "hidden_size": 32,
+    "num_layers": 1,
+    "dropout": 0.2,
+    "learning_rate": 0.001,
+    "batch_size": 128,
+    "epochs": 30,
+    "weight_decay": 1e-05,
+    "patience": 5,
+    "grad_clip": 1.0
+  }
+}

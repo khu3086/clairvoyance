@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "clairvoyance": {
+      "command": "C:\\Users\\khush\\OneDrive\\Documents\\clairvoyance\\.venv\\Scripts\\python.exe",
+      "args": ["-m", "mcp_server.server"],
+      "cwd": "C:\\Users\\khush\\OneDrive\\Documents\\clairvoyance",
+      "env": {
+        "CLAIRVOYANCE_API_URL": "http://127.0.0.1:8000"
+      }
+    }
+  }
+}
